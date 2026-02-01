@@ -14,7 +14,7 @@ To maintain data integrity across Plant 22 and Plant 56, I designed a tiered nam
 ### Business Impact
 This framework allowed for infinite scalability during long-term Greenfield testing phases. It effectively prevented data collisions and overlap between legacy tests and refined test cases, ensuring a "clean" audit trail for final sign-off.
 
-'''mermaid
+```mermaid
 
 graph TD
     Start([New Test Case Created]) --> Format[Format: Country-Area-Plant-Version-Sequence]
@@ -29,4 +29,4 @@ graph TD
     UpdateVersion --> Final
     
     style Final fill:#28a745,stroke:#fff,color:#fff
-    style Rollover fill:#f39c12,stroke:#fff,color:#fff'''
+    style Rollover fill:#f39c12,stroke:#fff,color:#fff```
