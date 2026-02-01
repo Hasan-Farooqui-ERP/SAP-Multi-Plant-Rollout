@@ -1,6 +1,6 @@
 # Multi-Site ERP Rollout: Plant 22 & Plant 56
 
-## Technical Case Study: Linear Asset Governance
+## Technical Case Study: Organizational & Asset Governance
 **The Challenge:** The project involved two standalone plants separated by 200km in a mountainous region. The extreme terrain and unpredictable weather conditions presented significant risks to physical infrastructure (towers and cabling) and made manual site inspections difficult. Legacy data systems lacked the granularity to isolate specific "points of failure" in these high-stakes environments.
 
 **The Solution:** I architected a 7-tier naming logic: `<Country>-<Area>-<Plant ID>-<Site ID>-<Asset Group>-<Version>-<Sequence>`.
