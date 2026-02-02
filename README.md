@@ -5,7 +5,7 @@
 
 **The Solution:** I architected a 7-tier naming logic: `<Country>-<Area>-<Plant ID>-<Site ID>-<Asset Group>-<Version>-<Sequence>`.
 
-**Future-Proofing (SCADA):** Drawing on lessons learned from SCADA infrastructure projects, this logic was specifically designed to bridge the gap between back-office ERP data and future real-time monitoring. By providing granular asset-level identifiers, the system is prepared to handle the eventual integration of complex linear assets, allowing for a transition from reactive to predictive maintenance.
+**Future-Proofing (SCADA):** Drawing on lessons learned from SCADA infrastructure projects, this logic was specifically designed to bridge the gap between back-office ERP data and future real-time monitoring. By providing granular asset-level identifiers, the system is prepared to handle the eventual integration of complex linear assets, allowing for a transition from reactive to predictive maintenance (This hierarchical logic is directly transferable to Global Position Management, allowing for a unified data structure across Country, Business Unit, and Department tiers.).
 
 ## Testing Version Control & Rollover Logic
 To maintain data integrity across Plant 22 and Plant 56, I designed a tiered naming convention for all SIT/UAT documentation to ensure 100% traceability.
